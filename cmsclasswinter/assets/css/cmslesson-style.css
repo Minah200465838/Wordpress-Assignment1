@@ -1,0 +1,33 @@
+html{
+    margin: 0 !important;
+}
+body {
+  margin: 0;
+  background-color: #f9f9f9;
+}
+header {
+  display: flex;
+  align-items: center;
+  height: 125px;
+  background-color: #f9f9f9;
+}
+header div {
+  height: 115px;
+  flex-grow: 1;
+}
+header div img {
+  height: 100%;
+}
+.menu{
+    display: flex;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+}
+.menu-main-container{
+    display: flex;
+    align-items: center;
+}
+.menu li{
+    padding: 0px 10px;
+}

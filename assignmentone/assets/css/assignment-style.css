@@ -1,0 +1,100 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+html{
+    margin: 0 !important;
+}
+body {
+  margin: 0;
+  background-color: #E8F3D6;
+  font-family: 'Balsamiq Sans';
+}
+header {
+  display: flex;
+  align-items: center;
+  height: 125px;
+  background-color: #E8F3D6;
+  font-family: 'Balsamiq Sans';
+}
+header div {
+  height: 115px;
+  flex-grow: 1;
+}
+header div img {
+  /* height: 100%; */
+  width: 150px;
+  margin-top: 20px ;
+  margin-left: 20px;
+}
+.menu{
+    display: flex;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+}
+.menu-mainmenu-container{
+    display: flex;
+    align-items: center;
+}
+.menu-item{
+    padding: 0px 10px;
+}
+
+/* Footer */
+footer ul {
+    display: flex;
+}
+footer ul li {
+    width: 20%;
+    text-align: center;
+    list-style: none;
+
+}
+footer ul li a {
+    display: block;
+}
+
+/* Main */
+.imagetext {
+    font-size: 45px;
+}
+.main div{
+    text-align: center;
+    padding-top: 56px;
+}
+.main div img {
+    border: 8px solid #829460;
+    width: 500px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px;
+}
+
+/* sub img and sub text */
+.container-sub img {
+    width: 300px;
+}
+
+.container-sub {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, minmax(100px, auto));
+    row-gap: 30px;
+}
+.container-sub div:first-child {
+    padding-left: 200px;
+}
+.container-sub div:nth-child(2) {
+    padding-left: 100px;
+}
+.container-sub div:nth-child(4) {
+    padding-left: 120px;
+}
+.container-sub div:nth-child(5) {
+    padding-left: 60px;
+}
+.container-sub div:last-child {
+    padding-left: 50px;
+}
